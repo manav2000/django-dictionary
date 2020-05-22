@@ -13,7 +13,7 @@ def get_word(word):
     e_url = "https://wordsapiv1.p.rapidapi.com/words/{}/examples".format(word)
     headers = {
         'x-rapidapi-host': "wordsapiv1.p.rapidapi.com",
-        'x-rapidapi-key': "503340062bmshdf589e0c55dd9afp1ceecejsn2b96afda0fb3"
+        'x-rapidapi-key': "YOUR_RAPID_API_KEY"
     }
 
     try:
